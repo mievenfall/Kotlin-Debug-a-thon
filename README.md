@@ -57,7 +57,11 @@ GIF created with **Loom**
 
 ## Notes
 
-Here's a place for any other notes on the app, it's creation process, or what you learned this unit!
+- A `ClassCastException` usually occurs when we force cast one particular type to another non-related type. Ex. String to Button
+- Another `ClassCastException` exception caused by the unsafe usage of the as operator.
+- A `Resources.NotFoundException` occurs when a String resource can't be referenced (usually because it doesn't exist or we incorrectly referenced it).
+- An `ArrayIndexOutOfBoundsException` usually occurs when we try to access particular index in an array that doesn't exist. Ex. trying to access the 6th index in an array of size 5
+- If you get the infamous `NullPointerException`, you know you definitely did something you shouldn't have.
 
 ## License
 
